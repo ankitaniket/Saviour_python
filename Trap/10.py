@@ -1,0 +1,14 @@
+lst=list(map(eval,input().split()))
+n=len(lst)//3
+lst1=lst[0:n:1]
+##cnt=n
+lst2=lst[n:2*n:1]
+##cnt+=n
+lst3=lst[2*n:3*n:1]
+print(lst)
+print(lst1)
+print(lst1[::-1])
+print(lst2)
+print(lst2[::-1])
+print(lst3)
+print(lst3[::-1])
